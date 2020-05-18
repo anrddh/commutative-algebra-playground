@@ -1,0 +1,8 @@
+[package]
+name = "commutative-algebra-playground"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.13.1"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "f23c361e3902dc947f1f8f8003522a870ecaf393"}
